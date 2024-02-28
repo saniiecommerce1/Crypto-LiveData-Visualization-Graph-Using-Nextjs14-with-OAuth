@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react';
-import styles from "./Trends.module.scss";
+import styles from "./trends.module.scss";
 import { GridColDef } from "@mui/x-data-grid";
 import { DataTableTrend } from "../../components/dataTable/DataTable";
 import '../../styles/responsive.module.scss'
