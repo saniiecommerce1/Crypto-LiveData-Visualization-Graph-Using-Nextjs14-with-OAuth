@@ -18,8 +18,8 @@ const Home = () => {
 const dispatch = useAppDispatch();
 
 useEffect(() => {
-// dispatch(getTrends());
-// dispatch(getGraph())
+dispatch(getTrends());
+dispatch(getGraph())
 });
 
 return (

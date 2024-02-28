@@ -18,7 +18,7 @@ const router = useRouter();
  const handleSearch = (e:FormEvent<HTMLFormElement>)=>{  
 
    e.preventDefault()    
-   // dispatch(getSearch(search));
+   dispatch(getSearch(search));
    router.push('/search')
  }
 
