@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { getTrends, getSearch, getChart, getGraph } from "./AsyncThunkActions";
-import { Initial } from "../../dataInterface.ts";
+import { Initial } from "@/dataInterface";
 
 const initialState: Initial = {
 trendCoins: null,

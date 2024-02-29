@@ -1,4 +1,4 @@
-import SearchOne from '../../../pages/searchone/SearchOne'
+import SearchOne from '@/comp-pages/searchone/SearchOne'
 
 
 export default function PageSearchOne({params}) {

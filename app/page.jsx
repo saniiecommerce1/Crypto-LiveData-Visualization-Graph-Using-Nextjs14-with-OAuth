@@ -1,5 +1,5 @@
 
-import Home from '../pages/home/Home'
+import Home from '@/comp-pages/home/Home'
 
 export default function PageHome() {
 

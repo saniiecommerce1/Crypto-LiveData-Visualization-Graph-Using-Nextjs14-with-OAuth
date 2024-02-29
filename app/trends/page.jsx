@@ -1,4 +1,4 @@
-import Trends from '../../pages/trends/Trends'
+import Trends from '@/comp-pages/trends/Trends'
 
 
 export default function PageTrends() {

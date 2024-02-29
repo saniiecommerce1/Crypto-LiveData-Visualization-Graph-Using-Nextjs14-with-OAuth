@@ -1,7 +1,6 @@
 import { NextResponse } from "next/server";
-import { auth } from "./lib/auth";
 
-export default auth((req) => {
+export default auth =((req) => {
 
   const url = req.nextUrl
   const isLoggedIn = !!req.auth  //in case of null convert to boolean
@@ -34,6 +33,6 @@ export default auth((req) => {
 //auth call when see matcher
 export const config = {
   matcher: ['/admin', '/search', "/((?!api|static|.*\\..*|_next).*)"],
-  // matcher: ["/((?!api|static|.*\\..*|_next).*)"],
+
 };
 

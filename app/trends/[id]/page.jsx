@@ -1,4 +1,4 @@
-import TrendOne from '../../../pages/trendone/TrendOne'
+import TrendOne from '@/comp-pages/trendone/TrendOne'
 
 
 export default function PageTrendOne({params}) {

@@ -6,7 +6,7 @@ CoinTrend,
 CoinSearch,
 Search,
 Trend,
-} from "../../dataInterface.ts";
+} from "@/dataInterface";
 
 const apiService = axios.create({
 baseURL: "https://api.coingecko.com/api/v3/",
@@ -54,7 +54,7 @@ const res = await apiService.get(
 `coins/${id}/market_chart?vs_currency=${currency}&days=${days}&precision=${precision}`
 );
 
-const chartData = res.data.prices.map((price: string | number[]) => {
+const chartData = res.data.prices.map((price: any) => {
 const [timestamp, p] = price;
 return { Date: new Date(timestamp).getHours(), Price: p };
 });

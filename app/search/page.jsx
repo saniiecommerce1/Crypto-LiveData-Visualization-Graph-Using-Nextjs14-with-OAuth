@@ -1,4 +1,4 @@
-import Search from '../../pages/search/Search'
+import Search from '@/comp-pages/search/Search'
 
 
 export default function PageSearch() {
