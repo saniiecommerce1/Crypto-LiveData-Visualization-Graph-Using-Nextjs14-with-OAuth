@@ -1,7 +1,7 @@
 import {auth} from './lib/auth'
 import { NextResponse } from "next/server";
 
-export default auth =((req) => {
+export default auth((req) => {
 
   const url = req.nextUrl
   const isLoggedIn = !!req.auth  //in case of null convert to boolean
